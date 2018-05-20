@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/QuestionsView"
+                android:textSize="25sp"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/buttonLogin"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/scoretest"/>
+
+
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:id="@+id/answer1"
+                    android:text="@string/answer1"
+                    android:background="@drawable/btn_answer"
+                    android:textColor="@color/btnAnswer"
+                    android:button="@null"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:id="@+id/answer2"
+                    android:text="@string/answer2"
+                    android:background="@drawable/btn_answer"
+                    android:textColor="@color/btnAnswer"
+                    android:button="@null"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:id="@+id/answer3"
+                    android:text="@string/answer3"
+                    android:background="@drawable/btn_answer"
+                    android:textColor="@color/btnAnswer"
+                    android:button="@null"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:id="@+id/answer4"
+                    android:text="@string/answer4"
+                    android:background="@drawable/btn_answer"
+                    android:textColor="@color/btnAnswer"
+                    android:button="@null"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:id="@+id/answer5"
+                    android:text="@string/answer5"
+                    android:background="@drawable/btn_answer"
+                    android:textColor="@color/btnAnswer"
+                    android:button="@null"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textAllCaps="false"/>
+
+                <Button
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:id="@+id/answer6"
+                    android:text="@string/answer6"
+                    android:background="@drawable/btn_answer"
+                    android:textColor="@color/btnAnswer"
+                    android:button="@null"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:textAllCaps="false"/>
+
+
+        </LinearLayout>
+
+
+</RelativeLayout>

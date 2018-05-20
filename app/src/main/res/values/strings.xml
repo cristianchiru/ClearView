@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Clearview</string>
+    <string name="facebookLogin">Facebook</string>
+    <string name="btnLogin">Login</string>
+    <string name="btnSignUp">Sign Up</string>
+    <string name="btnSignUp_action">Do not have an account? Sign up.</string>
+    <string name="btnForgotPassword">Forgot password?</string>
+    <string name="btnReset">Reset your password</string>
+    <string name="btnAlreadySigned">Already have an account? Sign in here.</string>
+    <string name="answer1">A.       Not at all</string>
+    <string name="answer2">B.       Just a little</string>
+    <string name="answer3">C.       Somewhat</string>
+    <string name="answer4">D.       Moderately</string>
+    <string name="answer5">E.       Quite a lot</string>
+    <string name="answer6">F.       Very Much</string>
+    <string name="quizEnd">Thank you for completing the quiz. Your answers have been sent.</string>
+</resources>

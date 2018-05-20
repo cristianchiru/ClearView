@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "526542617789",
+    "firebase_url": "https://clearview-eef60.firebaseio.com",
+    "project_id": "clearview-eef60",
+    "storage_bucket": "clearview-eef60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526542617789:android:a2d773e94b2cc9a0",
+        "android_client_info": {
+          "package_name": "com.razvan.clearview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526542617789-d7madqpf1t62tklepp9lmp833d3cpf8l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.razvan.clearview",
+            "certificate_hash": "fd6f7050376660e5ee18366b236f85d332a809d6"
+          }
+        },
+        {
+          "client_id": "526542617789-bj6bridg9q6938pfskf86rr36dfu3cc6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7C98Kh6XuxPBvppA4PYdFkyE_RzIKkqM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526542617789-bj6bridg9q6938pfskf86rr36dfu3cc6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

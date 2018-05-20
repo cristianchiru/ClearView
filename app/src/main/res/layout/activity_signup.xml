@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/gradient"
+    android:padding="40dp">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/inputEmail"
+        android:focusableInTouchMode="true"
+        android:hint="Email"
+        android:textColor="#E8E8E8"
+        android:backgroundTint="@color/buttonLogin"
+        android:textColorHint="@color/buttonLogin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:focusableInTouchMode="true"
+        android:id="@+id/inputPassword"
+        android:hint="Password"
+        android:textColor="#E8E8E8"
+        android:backgroundTint="@color/buttonLogin"
+        android:textColorHint="@color/buttonLogin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inputEmail"/>
+
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:text="@string/btnSignUp"
+        android:id="@+id/btnSignUp"
+        android:radius="1000dp"
+        android:textAllCaps="false"
+        android:textColor="#37ecba"
+        android:textSize="18sp"
+        android:layout_margin="20dp"
+        android:background="@drawable/btn_login"
+        android:layout_gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/inputPassword"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAlreadySigned"
+        android:id="@+id/btnAlreadySignedUp"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:textAllCaps="false"
+        android:textColor="@color/buttonLogin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+
+
+</android.support.constraint.ConstraintLayout>
